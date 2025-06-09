@@ -28,7 +28,8 @@ public class RibbitInstrumentModule {
     public static final RibbitInstrument BONGO = register("bongo", "geo/bongo_ribbit.geo.json", "play_bongo", SoundModule.MUSIC_RIBBIT_BONGO.get());
     public static final RibbitInstrument FLUTE = register("flute", "geo/flute_ribbit.geo.json", "play_flute", SoundModule.MUSIC_RIBBIT_FLUTE.get());
     public static final RibbitInstrument GUITAR = register("guitar", "geo/guitar_ribbit.geo.json", "play_guitar", SoundModule.MUSIC_RIBBIT_GUITAR.get());
-
+    public static final RibbitInstrument PIANO = register("piano", "geo/guitar_ribbit.geo.json", "play_piano", SoundModule.MUSIC_RIBBIT_PIANO.get());
+    
     /**
      * Registers a RibbitInstrument with the given name, model, and sound event.
      */
